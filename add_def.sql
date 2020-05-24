@@ -11,3 +11,5 @@ CREATE TABLE public.cms_ud_type_def (
 	entity_type varchar(40) NULL,
 	CONSTRAINT cms_ud_type_def_pk PRIMARY KEY (ud_type_id)
 );
+
+--this is rk
