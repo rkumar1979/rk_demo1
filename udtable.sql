@@ -32,6 +32,6 @@ CREATE TABLE public.cms_case_ud_hst (
 ALTER TABLE public.cms_case_ud ADD CONSTRAINT cms_case_ud_fk FOREIGN KEY (case_id) REFERENCES cms_case(case_id);
 
 
--- public.cms_case_ud_hst foreign keys
+-- public.cms_case_ud_hst rk comments added
 
 ALTER TABLE public.cms_case_ud_hst ADD CONSTRAINT cms_ud_case_hst_fk FOREIGN KEY (case_ud_id) REFERENCES cms_case_ud(case_ud_id);
